@@ -5,8 +5,16 @@
 # print "My last favourite colour is #{fav_colours.last}"
 # # or fav_colours[-1]
 
-#Hash of 3 cities of the world and their population
-cities = {Toronto: '2.615 million', Seoul: '10.58 million', Tokyo: '13.62 million'}
+# #Hash of 3 cities of the world and their population
+# cities = {Toronto: '2.615 million', Seoul: '10.58 million', Tokyo: '13.62 million'}
+#
+# #Add a new city and its population
+# cities[:London] = '8.788 million'
+#
 
-#Add a new city and its population
-cities[:London] = '8.788 million'
+#Array of Heads or Tails
+coin_toss = ['heads', 'tails', 'tails', 'heads', 'heads']
+
+#reverse coin flips
+
+coin_toss.reverse
