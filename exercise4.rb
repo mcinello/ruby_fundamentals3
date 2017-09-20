@@ -26,3 +26,11 @@ fav_bands = ['Sum41', 'Blink182', 'Linkin Park']
 #remove artist that's no longer favourite
 fav_bands.delete_at(0)
 # could also do fav_bands.shift -- removes first item
+
+# ----------------------------------------------------------------
+
+#Hash of 3 cities of the world and their population
+cities = {Toronto: '2.615 million', Seoul: '10.58 million', Tokyo: '13.62 million'}
+
+#change population for one of the cities
+cities[:Tokyo] = '20 million'
