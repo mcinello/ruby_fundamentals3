@@ -30,4 +30,5 @@ print "Youngest to oldest, my family's ages #{family_age.sort}"
 # #Hash of favourite move names and year of creation
 fav_movies = {HP: 2001, LOTR: 2001, Clueless: 1995, Mulan: 1998, Tangled: 2010}
 
+#Print year of one of the movies
 print fav_movies[:Clueless]
