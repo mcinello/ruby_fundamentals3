@@ -6,15 +6,16 @@
 # # or fav_colours[-1]
 
 # #Hash of 3 cities of the world and their population
-# cities = {Toronto: '2.615 million', Seoul: '10.58 million', Tokyo: '13.62 million'}
+cities = {Toronto: '2.615 million', Seoul: '10.58 million', Tokyo: '13.62 million'}
 #
 # #Add a new city and its population
-# cities[:London] = '8.788 million'
-#
+cities[:London] = '8.788 million'
+
+#Print population of one of the cities
+print "Seoul has a population of #{cities[:Seoul]}"
 
 #Array of Heads or Tails
-coin_toss = ['heads', 'tails', 'tails', 'heads', 'heads']
+# coin_toss = ['heads', 'tails', 'tails', 'heads', 'heads']
 
 #reverse coin flips
-
-coin_toss.reverse
+# coin_toss.reverse
