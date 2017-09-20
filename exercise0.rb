@@ -24,7 +24,6 @@ definitions = {mom: 'maternal figure', dad: 'paternal figure', brother: 'sibling
 fav_movies = {HP: 2001, LOTR: 2001, Clueless: 1995, Mulan: 1998, Tangled: 2010}
 
 #Hash of 3 cities of the world and their population
-
 cities = {Toronto: '2.615 million', Seoul: '10.58 million', Tokyo: '13.62 million'}
 
 #Family members and their age
