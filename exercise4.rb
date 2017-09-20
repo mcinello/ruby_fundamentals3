@@ -17,3 +17,12 @@ coin_toss = ['heads', 'tails', 'tails', 'heads', 'heads']
 
 #count how many times 'heads' was flipped
 coin_toss.count('heads')
+
+# --------------------------------------------------------------
+
+#Array of favourite performing artists
+fav_bands = ['Sum41', 'Blink182', 'Linkin Park']
+
+#remove artist that's no longer favourite
+fav_bands.delete_at(0)
+# could also do fav_bands.shift -- removes first item
