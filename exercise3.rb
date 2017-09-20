@@ -21,8 +21,21 @@
 # ---------------------------------------------------------------------------
 
 #Array of family member's age
-family_age = [26, 29, 21, 56, 57]
+# family_age = [26, 29, 21, 56, 57]
+#
+# #sort and reverse ages of family
+#
+# print family_age.sort.reverse
 
-#sort and reverse ages of family
 
-print family_age.sort.reverse
+# --------------------------------------------------------------------------
+
+#Hash of favourite move names and year of creation
+fav_movies = {HP: 2001, LOTR: 2001, Clueless: 1995, Mulan: 1998, Tangled: 2010}
+
+#Add Beauty and the Beast
+fav_movies[:'Beauty and the Beast'] = '1997 and 2017'
+
+fav_movies.each do |movie, year|
+  puts "#{movie} came out in #{year}"
+end
