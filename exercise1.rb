@@ -19,6 +19,8 @@ print "My first favourite colour is #{fav_colours[0]}"
 # #Array of family member's age
 family_age = [26, 29, 21, 56, 57]
 
+family_age.push << 0
+
 #Output sorted version of array of friends and family members ages.
 print "Youngest to oldest, my family's ages #{family_age.sort}"
 
