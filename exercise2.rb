@@ -37,5 +37,5 @@ fav_bands = ['Sum41', 'Blink182', 'Linkin Park']
 
 #print out sentence for each array
 fav_bands.map do |band|
-  print "I think #{band} is great"
+  puts "I think #{band} is great"
 end
