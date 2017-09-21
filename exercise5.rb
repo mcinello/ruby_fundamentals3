@@ -8,3 +8,5 @@ cities.each do |city, population|
 end
 
 print "The total population is #{total}"
+
+# -------------------------------------------------------------------------
