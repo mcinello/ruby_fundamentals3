@@ -25,3 +25,7 @@ end
 
 #display second item on list
 puts grocery_list[1]
+
+#display alphabetically
+
+puts grocery_list.sort
