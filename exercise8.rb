@@ -22,3 +22,6 @@ if grocery_list.index("banana")
 else
     puts "You don't need to pick up bananas today"
 end
+
+#display second item on list
+puts grocery_list[1]
