@@ -6,6 +6,7 @@ students = {
 
 def add_cohort(students, cohort, amount)
   students[cohort] = amount #adds a cohort
+  students.delete(:cohort2) #deletes 2nd cohort
   students.each { |cohort, amount| #displays cohort
     student_increase = amount * 1.05 #adds 5% to all cohorts
     puts "#{cohort}: #{student_increase} students" }
