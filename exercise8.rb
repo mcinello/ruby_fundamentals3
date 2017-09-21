@@ -8,7 +8,7 @@ grocery_list = add_list(grocery_list, "rice")
 
 def display_list(groceries)
   groceries.sort! #display alphabetically
-  groceries.delete("salmon")
+  groceries.delete("salmon") #deletes salmon from list, changes everything else.
   groceries.each do |item|
     puts "*#{item}"
   end
