@@ -4,11 +4,13 @@ def add_list(list, grocery)
   list.push(grocery)
 end
 
-
 grocery_list = add_list(grocery_list, "rice")
+
 def display_list(groceries)
-  groceries.each { |item|
-  puts "*#{item}" }
+  groceries.sort!
+  groceries.each do |item|
+    puts "*#{item}"
+  end
 end
 
 call_list = display_list(grocery_list)
@@ -27,4 +29,10 @@ end
 puts grocery_list[1]
 
 #display alphabetically
-puts "#{call_list = display_list(grocery_list.sort)}"
+
+      #
+      # groceries.chars.sort |a, b| {a.casecmp(b).join}
+      #
+
+#delete salmon
+# grocery_list.delete("salmon")
