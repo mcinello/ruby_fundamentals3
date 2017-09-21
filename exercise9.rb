@@ -27,3 +27,11 @@ def total_students(students)
 end
 
 puts all_students = total_students(students)
+
+# -------------------------------------------------------------------
+
+staff_members = {:webdev => 15, :uxdes => 10, :office => 12}
+
+
+  staff_members.each { |department, amount| #displays staff
+    puts "#{department}: #{amount} staff members" }
