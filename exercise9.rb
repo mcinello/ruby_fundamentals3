@@ -4,9 +4,10 @@ students = {
 :cohort3 => 22
 }
 
+def add_cohort(students, cohort, amount)
+  students[cohort] = amount
   students.each { |cohort, amount|
     puts "#{cohort}: #{amount} students" }
+end
 
-
-#
-# students[:cohort4] = 43
+add_new_cohort = add_cohort(students, :cohort4, 43)
