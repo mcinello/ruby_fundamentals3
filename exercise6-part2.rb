@@ -14,6 +14,10 @@ until num == 50
   end
 end
 
+#OR
+(1..50)
+numbers = (1..50).to_a
+
 #use each loop to find sum
 sum = 0
 numbers.each { |number| sum+=number }
