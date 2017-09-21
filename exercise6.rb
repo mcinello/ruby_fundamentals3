@@ -1,5 +1,13 @@
+# #List of movies
 movie_list = {
   '1999': ['The Matrix', 'Star Wars: Episode 1', 'The Mummy'],
   '2009': ['Avatar', 'Star Trek', 'District 9'],
   '2019': ['How to Train Your Dragon 3', 'Toy Story 4', 'Star Wars: Episode 9']
 }
+
+#Array for buttons on a phone
+row_one = [1, 2, 3]
+row_two = [4, 5, 6]
+row_three = [7, 8, 9]
+row_four = ['*', 0, '#']
+phone_buttons = [row_one, row_two, row_three, row_four]
