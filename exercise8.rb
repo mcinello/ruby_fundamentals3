@@ -7,7 +7,8 @@ end
 grocery_list = add_list(grocery_list, "rice")
 
 def display_list(groceries)
-  groceries.sort!
+  groceries.sort! #display alphabetically
+  groceries.delete("salmon")
   groceries.each do |item|
     puts "*#{item}"
   end
@@ -28,11 +29,5 @@ end
 #display second item on list
 puts grocery_list[1]
 
-#display alphabetically
-
-      #
-      # groceries.chars.sort |a, b| {a.casecmp(b).join}
-      #
 
 #delete salmon
-# grocery_list.delete("salmon")
