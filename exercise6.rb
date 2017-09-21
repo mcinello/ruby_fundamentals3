@@ -15,9 +15,8 @@ phone_buttons = [row_one, row_two, row_three, row_four]
 #Array with 3 countries,
 #Hash of name, continent, and whether or not it's an island
 
-country_one = {name: 'Bulgaria', continent: 'Europe', island?: 'no'}
-country_two = {name: 'South Korea', continent: 'Asia', island?: 'no'}
-country_three = {name: 'Australia', continent: 'Australia', island?: 'no'}
-countries = [country_one, country_two, country_three]
-
-puts countries
+countries = [
+  {name: 'Bulgaria', continent: 'Europe', island?: 'no'},
+  {name: 'South Korea', continent: 'Asia', island?: 'no'},
+  {name: 'Australia', continent: 'Australia', island?: 'yes'}
+]
