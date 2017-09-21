@@ -27,5 +27,4 @@ end
 puts grocery_list[1]
 
 #display alphabetically
-
-puts grocery_list.sort
+puts "#{call_list = display_list(grocery_list.sort)}"
