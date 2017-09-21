@@ -1,3 +1,5 @@
+#Repeat sentence 20 times
+message_array = []
 20.times do
-  puts "I will not skateboard in the halls"
+  message_array.push("I will not skateboard in the halls")
 end
