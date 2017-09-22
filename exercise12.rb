@@ -22,3 +22,14 @@ family_age = [26, 29, 21, 56, 57]
 
 family_age.map! { |age| age + 1}
 print "New age #{family_age}"
+
+# ------------------------------------------------------
+#Array of Heads or Tails
+coin_toss = ['heads', 'tails', 'tails', 'heads', 'heads']
+
+coin_toss.select {|heads|
+  new_array = []
+  if heads == "heads"
+    puts new_array = heads
+  end
+}
